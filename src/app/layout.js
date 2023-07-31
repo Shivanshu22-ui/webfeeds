@@ -8,10 +8,10 @@ import { store } from "@/features/store";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Web Feeds",
-  description: "Customized user feeds for the employees of groww.",
-};
+// export const metadata = {
+//   title: "Web Feeds",
+//   description: "Customized user feeds for the employees of groww.",
+// };
 
 export default function RootLayout({ children }) {
   const [light,setLight] = useState(false);

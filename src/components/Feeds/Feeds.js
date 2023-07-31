@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setAllPosts } from "@/features/allPosts.slice";
 import useInfiniteScroll from "@/hooks/infiniteScroll";
 import GridCards from "../Cards/gridCard";
-import Loader from "../loader/loader";
+import Loader from "../loader/Loader";
 
 export default function Feeds() {
   const dispatch = useDispatch();

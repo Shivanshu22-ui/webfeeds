@@ -11,7 +11,7 @@ import { setUser, setUserPosts, emptyUser, currentNavActive } from "@/features/u
 import Cards from "../Cards/cards";
 import GridCards from "../Cards/gridCard";
 import useInfiniteScroll from "@/hooks/infiniteScroll";
-import Loader from "../loader/loader";
+import Loader from "../loader/Loader";
 
 export default function Profile({ user }) {
   const { currentUser, currentUsersPosts } = useSelector((state) => state.user);

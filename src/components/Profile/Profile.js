@@ -1,3 +1,5 @@
+"use client"
+
 import "./Profile.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

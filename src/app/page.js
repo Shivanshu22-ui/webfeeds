@@ -1,6 +1,6 @@
 "use client";
 import Feeds from "@/components/Feeds/Feeds";
-import "./page.module.css";
+import "./page.css";
 import UserInfo from "@/components/UserInfo/UserInfo";
 
 export default function Home() {

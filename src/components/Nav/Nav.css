@@ -67,7 +67,7 @@
         width: 100%;
         left: 0%;
     }
-    ._nav_list{
+    ._nav_list_dark,._nav_list_light{
         background-color: #121212;
         width:90%;
         text-decoration: none;

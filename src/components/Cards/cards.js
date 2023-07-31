@@ -1,5 +1,5 @@
 "use client";
-import "./cards.modules.css";
+import "./cards.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";

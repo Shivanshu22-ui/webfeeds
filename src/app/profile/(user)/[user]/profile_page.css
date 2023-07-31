@@ -1,0 +1,7 @@
+._profile_wrapper{
+    height: 100%;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

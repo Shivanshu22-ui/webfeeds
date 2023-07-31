@@ -1,34 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a web feeds application in Next.js an assignment for Groww.
 
-## Getting Started
+To start the server run:
+#npm install (To download node modules)
+#npm run dev
 
-First, run the development server:
+Features:
+1. Feeds listing with infinite scroll.
+2. Feeds caching using Redux tool kit.
+3. User profile with user's post listing
+4. Toggle between list and grid view
+5. Toggle between light and dark themes.
+6. Mobile responsive.
+7. Device and browser compatible.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Some snapshots of the same are provided.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![image](https://github.com/Shivanshu22-ui/webfeeds/assets/76548929/17bc6760-aaf9-4c1d-ab3a-5cea14e2a528)
+![image](https://github.com/Shivanshu22-ui/webfeeds/assets/76548929/7caa7a08-256a-4e2c-8a04-2bd107d895b2)
+![image](https://github.com/Shivanshu22-ui/webfeeds/assets/76548929/98bfb83e-167b-4e26-ab40-5f206edaef3d)
+![image](https://github.com/Shivanshu22-ui/webfeeds/assets/76548929/b2f0fc12-3c7e-4c7a-b313-9ca9710cac29)
+![image](https://github.com/Shivanshu22-ui/webfeeds/assets/76548929/471b8a12-c07d-4759-b9d6-5ae1efb6fac7)

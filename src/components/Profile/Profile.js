@@ -1,6 +1,7 @@
 import "./Profile.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useRouter } from 'next/router'
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faTableCells } from "@fortawesome/free-solid-svg-icons";
 import { faList } from "@fortawesome/free-solid-svg-icons";
@@ -19,6 +20,7 @@ export default function Profile({ user }) {
   const [view, setView] = useState(false);
   const [pageNumber, setPageNumber] = useState(1);
   const observe = useRef();
+  console.log("profile page step 2")
   const { loading, error, hasMore, posts } = useInfiniteScroll(
     pageNumber,
     user?.user
